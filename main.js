@@ -6,19 +6,21 @@
 
 
 for (var i = 1; i <= 100; i++) {
-    console.log(i);
-// Se è multiplo di 3 stampo Fizz.
-    if( i % 3 == 0 ){
-            console.log('Fizz');
-        }
-        // Se è multiplo di 5 stampo Buzz.
-        if( i % 5 == 0 ){
-            console.log('Buzz');
-        }
-        // Se è multiplo di 3 e 5 stampo FizzBuzz.
-        if () {
 
-        }
+    // Se è multiplo di 3 e 5 stampo FizzBuzz.
+    if ( i % 3 == 0 && i % 5 == 0 ) {
+        console.log('FizzBuzz');
+    }
+    // Se è multiplo di 3 stampo Fizz.
+    else if ( i % 3 == 0 ) {
+        console.log('Fizz');
+    // Se è multiplo di 5 stampo Buzz
+    }else if ( i % 5 == 0 ) {
+        console.log('Buzz');
+    }
+    else {
+        console.log(i);
+    }
 
 
 }
